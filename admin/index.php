@@ -35,7 +35,7 @@
   </nav>
     <div class="container" id="content">
     </div>
-    <form id="modalLogin" class="modal" onsubmit="logIn();return false;" style="width: 400px">
+    <form id="modalLogin" class="modal" onsubmit="logIn();return false;" style="width: 600px">
         <div class="modal-content">
             <h4>Iniciar sesion</h4>
             <div class="input-field">
@@ -77,7 +77,8 @@
                     <label for="boleta">Apellido Materno</label>
                 </div>
                 <div class="input-field">
-                    <input type="password" name="pass" id="passS" required>
+                    <input type="password" name="pass" id="passS" required pattern="(?=^.{8,}$)((?=.\d)|(?=.\W+))(?![.\n])(?=.[A-Z])(?=.[a-z]).*$">
+                    
                     <label for="pass">Contraseña</label>
                 </div>
             </div>

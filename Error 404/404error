@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{ 
+background-color: #D2B48C;
+}
+h1{
+	color: #FFFAFA;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 200%;
+	text-align: center;
+}
+h2{
+	color: #696969;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 180%;
+	text-align: center;
+}
+.img-container {
+        text-align: center;
+        display: block;
+}
+</style>
+</head>
+<body>
+		<h1>Error 404</h1>
+		<h2>Yo había ponido mi página aquí</h2>
+		<img src="yo-habia-ponido.jpg" alt="Gato ponido">
+<body>
+</html>

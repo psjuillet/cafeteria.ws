@@ -76,10 +76,12 @@
                     <label for="boleta">Apellido Materno</label>
                 </div>
                 <div class="input-field">
-                    <input type="password" name="pass" id="passS" required pattern="(?=^.{8,}$)((?=.\d)|(?=.\W+))(?![.\n])(?=.[A-Z])(?=.[a-z]).*$">
-                    
+                    <input type="password" name="pass" id="passS" required pattern="(?=^.{8,}$)((?=.\d)|(?=.\W+))(?![.\n])(?=.[A-Z])(?=.[a-z]).*$">                    
                     <label for="pass">Contraseña</label>
                 </div>
+                    <div>
+                    <button class="g-recaptcha" data-sitekey="6LcnAqMZAAAAAG1kqVgczD5RIOyWEgNbhSQ7DqBm" data-callback='onSubmit' data-action='submit'>Enviar</button>
+                    </div>
             </div>
         </div>
         <div class="modal-footer">

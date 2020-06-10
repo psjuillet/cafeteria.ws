@@ -35,7 +35,7 @@
   </nav>
     <div class="container" id="content">
     </div>
-    <form id="modalLogin" class="modal" onsubmit="logIn();return false;" style="width: 400px">
+    <form id="modalLogin" class="modal" onsubmit="logIn();return false;" style="width: 600px">
         <div class="modal-content">
             <h4>Iniciar sesion</h4>
             <div class="input-field">

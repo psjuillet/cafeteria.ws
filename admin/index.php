@@ -46,7 +46,7 @@
                 <input type="password" name="pass" id="pass" required>
                 <label for="pass">Contraseña</label>
             </div>
-            <button class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Enviar</button>     
+            <button class="g-recaptcha" data-sitekey="6LcnAqMZAAAAAG1kqVgczD5RIOyWEgNbhSQ7DqBm" data-callback='onSubmit' data-action='submit'>Enviar</button>     
             <div>
             
             </div>

@@ -76,7 +76,7 @@
                     <label for="boleta">Apellido Materno</label>
                 </div>
                 <div class="input-field">
-                    <input type="password" name="pass" id="passS" required pattern="(?=^.{8,}$)((?=.\d)|(?=.\W+))(?![.\n])(?=.[A-Z])(?=.[a-z]).*$">                    
+                    <input type="password" name="pass" id="passS" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">                    
                     <label for="pass">Contraseña</label>
                 </div>
                     <div>

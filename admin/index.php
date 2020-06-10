@@ -47,7 +47,7 @@
                 <label for="pass">Contraseña</label>
             </div>                 
             <div>
-            <button class="g-recaptcha" data-sitekey="6LcnAqMZAAAAAG1kqVgczD5RIOyWEgNbhSQ7DqBm" data-callback='onSubmit' data-action='submit'>Enviar</button>
+            <button class="g-recaptcha" data-sitekey="6LcnAqMZAAAAAG1kqVgczD5RIOyWEgNbhSQ7DqBm" data-callback='onSubmit' data-action='submit'></button>
             </div>
         </div>
         <div class="modal-footer">
